@@ -85,8 +85,11 @@ $(document).ready(function(){
 <script type="text/javascript">
 $(document).ready(function(){ 
   var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
+      url = $this.attr('data-url');
+  if(url.indexOf('http://')<0){
+     url = 'http://' + url;
+  }
+  var encodedUrl = encodeURIComponent(url),
       title = $this.attr('data-title'),
       tsina = $this.attr('data-tsina'),
       description = $this.attr('description');
