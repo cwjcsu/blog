@@ -223,3 +223,49 @@
     margin 1em 0 0
   div
     padding 0.5em 0
+
+	.category-list
+  font-size 0.9em
+  padding 15px 20px 
+
+//multiple category
+.category-container
+  @media mini
+    width 45%
+    float left
+    margin 0 5% 0 0
+  @media tablet 
+    width 100%
+    float none
+    margin 1em 0 0
+	
+.category-title
+  font-size 1.1em
+  color color-blue
+  padding 0 0 0.3125em 0
+  border-bottom 0.1875em solid color-gray
+  a
+    color color-blue
+    &:hover
+      color color-theme
+      transition color .5s
+	  
+.category-list
+  font-size 0.9em
+  padding 15px 20px 
+  .category-list-count
+    margin-left 8px
+    font-size 0.8em
+    color color-meta
+    &:before
+      content '('
+    &:after
+      content ')'
+  .category-list-link
+    color color-theme
+
+ul, ol, dl
+  list-style none
+  ul, ol, dl
+    margin-left 20px 
+ 
