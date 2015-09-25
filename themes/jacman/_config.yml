@@ -53,20 +53,20 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "Hello ,I'm cwjcsu Page in Google."    ## your introduction on the bottom of the page
+  intro_line1:  "Hello ,I'm Atlas in Github."    ## your introduction on the bottom of the page
   intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
-  weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo: 2172283884     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  tsina: 2172283884      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email:      ## e.g. imjark@gmail.com
+  email: cwjcsu@gmail.com      ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github:     ## e.g. wuchong for https://github.com/wuchong
+  github: cwjcsu    ## e.g. wuchong for https://github.com/wuchong
   facebook:   ## e.g. imjark for https://facebook.com/imjark
-  linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  linkedin:    ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
-  stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
+  stackoverflow: 1770716 ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
 #### Toc
@@ -78,14 +78,14 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
-  Jark's Blog: http://wuchong.me
+  Project Euler: http://projecteuler.net/,一个有挑战性的数学和计算机编程试题网站
+  OpenMind's Blog: http://openmind.iteye.com/,我的iteye博客
 
 
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+duoshuo_shortname: cwjcsu   ## e.g. wuchong   your duoshuo short name.
+disqus_shortname:  cwjcsu   ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
@@ -102,7 +102,7 @@ google_analytics:
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
   enable: false
-  sitecode:  ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode: 662ea760529ecbecde7d726d80717368  ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
@@ -124,9 +124,9 @@ google_cse:
 ## title: search
 ## ---
 baidu_search:     ## http://zn.baidu.com/
-  enable: false
-  id:   ## e.g. "783281470518440642"  for your baidu search id
-  site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
+  enable: true
+  id: 9463367544772773058  ## e.g. "783281470518440642"  for your baidu search id
+  site: http://cwjcsu.github.io  ## your can change to your site instead of the default site
   
 tinysou_search:     ## http://tinysou.com/
   enable: false
