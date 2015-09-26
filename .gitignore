@@ -6,3 +6,5 @@ node_modules/
 public/
 .deploy*/
 cwjcsu.github.io/
+.project
+.idea/
