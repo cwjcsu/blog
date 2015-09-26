@@ -6,9 +6,11 @@ tags:
 
 categories: 
 - 工具
-
+description: 介绍了标准Markdown语法和GitHub Flavored Markdown (GFM)，并推荐了一款Markdown编辑器
 ---
 
+本文介绍了标准Markdown语法和GitHub Flavored Markdown (GFM)，并推荐了一款Markdown编辑器
+<!--more-->
 # 标准Markdwon语法
 **Markdown**是一种轻量级标记语言，它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的HTML(或者pdf、docx)文档”。Markdown现在拥有非常多的扩展，而且标准化已经几乎不可能。有一个介绍标准化markdown的[网站](http://daringfireball.net/projects/markdown/)。里面的[Syntax](http://daringfireball.net/projects/markdown/syntax)详细介绍了标准markdown所有语法。
 
