@@ -71,3 +71,11 @@ deploy:
   type:github
   repo:git@github.com:cwjcsu/cwjcsu.github.io
   branch:master
+  
+sitemap:
+  path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20  
