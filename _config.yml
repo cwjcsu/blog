@@ -68,7 +68,7 @@ theme: jacman
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repo: git@github.com:cwjcsu/cwjcsu.github.io
   branch: master
   
