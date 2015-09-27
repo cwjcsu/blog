@@ -62,7 +62,7 @@ root: /<repoName>/
         description: 你对本页的描述
     ```
 
-    处理之后会在html页面的&lthead&gt标签内生成：
+    处理之后会在html页面的&lt;head&gt;标签内生成：
 
     ```
         <meta property="og:description" content="你对本页的描述"> 
