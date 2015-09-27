@@ -33,12 +33,41 @@ root: /<repoName>/
 ```
 那么hexo就会在生成页面的时候，给所有导入的资源加上`/<repoName>/`，从而可以正确访问到仓库`<repoName>`里面的资源文件，这样就会显示正常。
 
-# hexo + jacman主题遇到的问题
+# Tips about hexo + jacman
 
-TODO
+1. .yml配置项冒号和值之间要有空格
+1. jacman主题的内置分享功能url没有用`http://`开头，导致分享不成功
+    我修改了一下代码：themes/jacman/layout/_partial/after_footer.ejs:(大概第86行左右)
+    ```
+     var $this = $('.share'),
+      url = $this.attr('data-url');
+      if(url.indexOf('http://')<0){
+         url = 'http://' + url;
+      }
+      var encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+    ```
 
-1. 
+1. 一些.md或者.html被hexo处理后出现中文乱码
+    往往是.md或者.html文件使用的编码格式不是UTF-8，只需要把这些文件转换成UTF-8并保存就可以被hexo正常处理；
 
+1. 每篇文章的description属性会被hexo处理成description的meta，即：
+    ```
+        title: hexo你的博客
+        date: 2013-11-22 17:11:54
+        categories: default
+        tags: [hexo]
+        description: 你对本页的描述
+    ```
 
+处理之后会在html页面的&lthead&gt标签内生成：
+    ```
+        <meta property="og:description" content="你对本页的描述"> 
+    ```
+这个描述一般会在搜索引擎展示你的页面时出现。（SEO范畴）
+1. 使用hexo new page *pageName*会创建一个source/*pageName*目录，并在这里面创建一个index.md文件，这个页面可以通过`<username>.github.io/<pageName>`访问到。所以这个*pageName*不要与你的某个聚友Github Pages的仓库名称重复了。
 
+1. 使用`<!--more-->`标签可以让标签以上的文本作为摘要，在博客列表中显示出来，点击Read More显示特定博客有内容。
 
