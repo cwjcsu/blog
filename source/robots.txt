@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://cwjcsu.github.io/sitemap.xml
