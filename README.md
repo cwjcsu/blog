@@ -62,12 +62,15 @@ root: /<repoName>/
         description: 你对本页的描述
     ```
 
-处理之后会在html页面的&lthead&gt标签内生成：
+    处理之后会在html页面的&lthead&gt标签内生成：
+
     ```
         <meta property="og:description" content="你对本页的描述"> 
     ```
-这个描述一般会在搜索引擎展示你的页面时出现。（SEO范畴）
+
+    这个描述一般会在搜索引擎展示你的页面时出现。（SEO范畴）
+
 1. 使用hexo new page *pageName*会创建一个source/*pageName*目录，并在这里面创建一个index.md文件，这个页面可以通过`<username>.github.io/<pageName>`访问到。所以这个*pageName*不要与你的某个聚友Github Pages的仓库名称重复了。
 
-1. 使用`<!--more-->`标签可以让标签以上的文本作为摘要，在博客列表中显示出来，点击Read More显示特定博客有内容。
+1.  使用`<!--more-->`标签可以让标签以上的文本作为摘要，在博客列表中显示出来，点击Read More显示特定博客有内容。
 
