@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一叶知秋
-subtitle:
-description:
+title: 一叶知秋-博客
+subtitle: 码农，程序员，数学物理科幻爱好者
+description: 一叶知秋的博客 | Java | 算法 | Project Euler | 三体
 author: cwjcsu@gmail.com
 language: zh-CN
 timezone:
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: 其他
 category_map:
 tag_map:
 
