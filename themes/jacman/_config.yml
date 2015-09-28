@@ -4,7 +4,7 @@ menu:
   归档: /archives
   关于: /about
   Sitemap: /sitemap.xml
-  Rss: /atom.xml
+  RSS: /atom.xml
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -103,11 +103,11 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
-  enable: true
-  sitecode: c8b697969f1cf6e191614a49fe8668e7 # 662ea760529ecbecde7d726d80717368 for http://cwjcsu.github.io ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
-cnzz_tongji:
   enable: false
-  siteid:    ## e.g. 1253575964 your cnzz tongji site id
+  sitecode: #c8b697969f1cf6e191614a49fe8668e7 for cwjcsu.gitcafe.io # 662ea760529ecbecde7d726d80717368 for http://cwjcsu.github.io ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+cnzz_tongji:
+  enable: true
+  siteid: 1256448778   ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
 ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.
