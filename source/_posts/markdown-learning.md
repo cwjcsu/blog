@@ -463,7 +463,31 @@ _   underscore
 \.
 \!
 
+### 锚点
+（1）标题默认做锚点。
+使用 
+```
+## HeaderName
+```
+生成的标题都会用一个`id="HeaderName"`的元素包裹。同一页面可以用这样引用：`[link text](#HeaderName)`，其他页面可以这样引用：`[link text](http://...#HeaderName)`。
+也可以直接使用`[Header Name][]`引用这个标题。
 
+（2）使用`<a name="abcd"></a>`创建锚点：
+```
+#### <a name="header1234"></a>A Heading in this SO entry!
+```
+produces:
+#### <a name="header1234"></a>A Heading in this SO entry!
+然后可以通过下面的方式链接到这里：
+
+```
+ Click [Here](#header1234) to link 
+```
+Click [Here](#header1234) to link 
+  也可以使用`<a id="abcd"></a>`创建锚点，但不推荐，原因看[这里](http://stackoverflow.com/a/7335259/57171)
+
+
+[链接到标题锚点](#MultiMarkdownOverview)
 
 # GitHub Flavored Markdown
 [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)(缩写为GFM)是标准markdwon的一个扩展集，在github上面大放异彩。
