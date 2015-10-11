@@ -1,4 +1,4 @@
-title: Markdown学习
+title: Markdown标准语法与GitHub Flavored Markdown语法大全
 date: 2015-09-26 15:01:19
 tags:
 - 工具

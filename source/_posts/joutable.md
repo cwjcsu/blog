@@ -8,7 +8,7 @@ categories:
 - My Projects
 description: 一个Java写的把简单表格格式化打印到控制台的工具，自动对齐和换行，可以定制标题填充字符、表头分隔字符。
 ---
-一个Java写的把简单表格格式化打印到控制台的工具，自动对齐和换行，可以定制标题填充字符、表头分隔字符。[Click Here to see more detail](https://github.com/cwjcsu/joutable/)
+一个Java写的把简单表格格式化打印到控制台的工具，自动对齐和换行，可以定制标题填充字符、表头分隔字符。[Click Here to see more detail](https://cwjcsu.github.io/joutable/)
 <!--more-->
 # An simple and pretty formatted Table in Java
 You may want to print out some simple table (with title,headers) to the console with a readable format,then joutable is your best choise.

@@ -6,6 +6,7 @@ tags:
 - jacman
 categories:
 - 工具
+toc: false
 ---
 本为介绍了hexo + pacman主题搭建github博客容易犯错的地方。
 <!--more-->
