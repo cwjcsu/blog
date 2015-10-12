@@ -9,12 +9,12 @@ article
   header.article-info
     @media mini
       border-bottom 1px solid lighten(color-gray,30%)
-    >h1
+    >h2
       padding 0.2em 3%
       font-size font-size+70
-      line-height line-height
+      line-height 120%
       @media tablet
-        font-size font-size+100
+        font-size font-size+120
         padding-top 0.3em
       word-wrap break-word 
       word-break normal
@@ -43,7 +43,7 @@ article
         content "\f017"
         font-smoothing()      
   .article-content
-    padding 1.5em 4%
+    padding 0.5em 4%
     color color-content
     font-size font-size
     &:before,&:after
@@ -204,3 +204,6 @@ article
       margin-right 0.5em
       margin-left 1em
       float right
+
+article.post-expand header.article-info  >h2
+  font-size 150%
