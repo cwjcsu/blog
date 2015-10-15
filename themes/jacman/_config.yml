@@ -104,7 +104,7 @@ google_analytics:
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
   enable: true
-  sitecode: c8b697969f1cf6e191614a49fe8668e7 #for cwjcsu.gitcafe.io # 662ea760529ecbecde7d726d80717368 for http://cwjcsu.github.io ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode: 90520fa0d03b2ba198c8e692f1d8664a #for debug4.me #c8b697969f1cf6e191614a49fe8668e7 for cwjcsu.gitcafe.io # 662ea760529ecbecde7d726d80717368 for http://cwjcsu.github.io ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid: 1256448778   ## e.g. 1253575964 your cnzz tongji site id

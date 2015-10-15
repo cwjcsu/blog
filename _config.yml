@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一叶知秋-博客
+title: debug4me | 一叶知秋-博客
 subtitle: 码农，程序员，数学物理科幻爱好者
-description: 一叶知秋的博客 | Java | 算法 | Project Euler | 三体
-author: cwjcsu@gmail.com
+description: 一叶知秋的博客 | Java | 算法 | Project Euler | 三体 | Debug 4 me | github | gitcafe
+author: debug4me@163.com
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cwjcsu.gitcafe.io
+url: http://debug4.me
 root: /
 permalink: :category/:title/
 permalink_defaults:
