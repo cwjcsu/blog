@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://cwjcsu.gitcafe.io/sitemap.xml
+Sitemap: http://debug4.me/sitemap.xml
