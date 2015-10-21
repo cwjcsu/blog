@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://debug4.me/sitemap.xml
+Sitemap: http://www.debug4.me/sitemap.xml
