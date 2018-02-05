@@ -4,7 +4,7 @@ tags:
 - blogs
 - hexo
 categories:
-- Misc
+- 生活
 description:  I'm back.我回来了。 
 ---
 

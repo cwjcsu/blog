@@ -6,7 +6,7 @@ tags:
 - 分治算法
 
 categories: 
-- Algorithm
+- 算法
 
 description: 本文介绍了三分法（Ternary Search）的适用场景以及与二分法的区别
 ---

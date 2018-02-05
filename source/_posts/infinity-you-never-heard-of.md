@@ -6,7 +6,7 @@ tags:
 - 无穷大
 - 一一对应
 categories:
-- Math
+- 数学
 
 description: 关于三类无穷大的讨论
 
