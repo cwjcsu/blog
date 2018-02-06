@@ -39,7 +39,7 @@ theme_color:
 
 # 代码高亮主题
 # available: default | night
-highlight_theme: default
+highlight_theme: night
 
 #### index post is expanding or not 
 index:
@@ -55,8 +55,8 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "Hello ,I'm Atlas in Github."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  intro_line1:  "路漫漫其修远兮"    ## your introduction on the bottom of the page
+  intro_line2:  "吾将上下而求索"  ## the 2nd line
   weibo: 2172283884     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina: 2172283884      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -86,8 +86,10 @@ links:
 
 
 #### Comment
-duoshuo_shortname: cwjcsu   ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: #cwjcsu   ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:  #cwjcsu  #关闭这个国外评论系统， ## e.g. wuchong   your disqus short name.
+## 来比力评论系统
+livere: MTAyMC8zMzkzNS8xMDQ3MA==
 
 #### Share button
 jiathis:
@@ -131,5 +133,5 @@ baidu_search:     ## http://zn.baidu.com/
   site: #http://zhannei.baidu.com/cse/search ## your can change to your site instead of the default site
   
 tinysou_search:     ## http://tinysou.com/
-  enable: true
+  enable: false # 好像停止服务了
   id: 9058ca157e9c5b1686f7 ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
