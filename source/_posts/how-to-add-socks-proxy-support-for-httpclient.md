@@ -10,7 +10,7 @@ description: 描述如何给http client添加socks代理支持，socks代理需�
 ---
 本文描述http client使用socks代理过程中需要注意的几个方面：1，socks5支持用户密码授权；2，支持https；3，支持让代理服务器解析DNS；
 <!--more-->
-# 用使用代理创建Socket
+# 使用代理创建Socket
 从原理上来看，不管用什么http客户端（httpclient，okhttp），最终都要转换到`java.net.Socket`的创建上去，看到代码：
 ```
 package java.net;
