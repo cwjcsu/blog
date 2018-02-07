@@ -6,7 +6,7 @@ tags:
 - HttpClient
 categories:
 - 编程
-description: 描述如果给http client添加socks代理支持，socks代理需要支持用户名、密码的验证，支持https访问。
+description: 描述如何给http client添加socks代理支持，socks代理需要支持用户名、密码的验证，支持https访问。
 ---
 本文描述http client使用socks代理过程中需要注意的几个方面：1，socks5支持用户密码授权；2，支持https；3，支持让代理服务器解析DNS；
 <!--more-->
